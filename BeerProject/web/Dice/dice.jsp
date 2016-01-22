@@ -12,6 +12,10 @@
     <title></title>
 </head>
 <body>
+<jsp:include page="/common/Header.jsp">
+    <jsp:param name="subTitle" value="Let's roll dice !"/>
+</jsp:include>
+<br>
 ${mine:rollIt()}
 </body>
 </html>
